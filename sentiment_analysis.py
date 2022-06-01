@@ -320,9 +320,9 @@ tokenizer = Tokenizer(num_words=vocab_size, oov_token=oov_tok)
 tokenizer.fit_on_texts(training_sentences)
 
 emo_code_url = {
-    "Neutral": [0, "./static/assets/emoticons/neutral.png"],
-    "Positive": [1,"./static/assets/emoticons/positive.png" ],
-    "Negative": [2, "./static/assets/emoticons/negative.png"]
+    "Neutra": [0, "./static/assets/emoticons/neutral.png"],
+    "Positiva": [1,"./static/assets/emoticons/positive.png" ],
+    "Negativa": [2, "./static/assets/emoticons/negative.png"]
     }
 
 def predict(text):
